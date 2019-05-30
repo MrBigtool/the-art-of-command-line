@@ -1,1 +1,2 @@
-ls 
+alias ..='cd ..'
+alias lk=`ls -ltrh`
