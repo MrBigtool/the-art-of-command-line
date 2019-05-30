@@ -4,8 +4,26 @@
 alias ..='cd ..'
 alias lk=`ls -ltrh`
 
-# GIT :
+################################################ GIT :
+
+# Get trunk differences
 alias diffg=`git diff origin/master..HEAD`
+# reset local changes (delete local changes, be careful)
 alias resetg=`git reset --hard HEAD~1`
+# Get info about which branch I am now
 alias branchg=`git branch`
+
+####################### commit steps when you want commit updates from specific branch 'art-brash2':
+# -- commit
+# git commit
+# -- change to 'trunk'
+# git checkout master
+# -- get all changes from 'trunk'
+# git pull origin master
+# -- merge from branch
+# git merge art-bash2
+# -- upload changes
+# git push
+# -- change to branch
+# git checkout art-bash2
 
