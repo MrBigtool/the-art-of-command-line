@@ -1,2 +1,4 @@
 alias ..='cd ..'
 alias lk=`ls -ltrh`
+alias diffg=`git diff origin/master..HEAD`
+alias resetg=`git reset --hard HEAD~1`
