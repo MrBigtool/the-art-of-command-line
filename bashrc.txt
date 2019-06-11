@@ -26,4 +26,5 @@ alias branchg=`git branch`
 # git push
 # -- change to branch
 # git checkout art-bash2
-
+# -- remember credentials
+# git config --global credential.helper cache
